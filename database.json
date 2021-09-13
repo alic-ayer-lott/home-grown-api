@@ -1,0 +1,116 @@
+{
+    "plants": [
+        {
+            "id": 1,
+            "name": "Arugula"
+        },
+        {
+            "id": 2,
+            "name": "Basil"
+        },
+        {
+            "id": 3,
+            "name": "Beets"
+        },
+        {
+            "id": 4,
+            "name": "Broccoli"
+        },
+        {
+            "id": 5,
+            "name": "Cabbage"
+        },
+        {
+            "id": 6,
+            "name": "Carrots"
+        },
+        {
+            "id": 7,
+            "name": "Cauliflower"
+        },
+        {
+            "id": 8,
+            "name": "Corn"
+        },
+        {
+            "id": 9,
+            "name": "Cucumbers"
+        },
+        {
+            "id": 10,
+            "name": "Green Beans"
+        },
+        {
+            "id": 11,
+            "name": "Kale"
+        },
+        {
+            "id": 12,
+            "name": "Lettuce"
+        },
+        {
+            "id": 13,
+            "name": "Okra"
+        },
+        {
+            "id": 14,
+            "name": "Parsley"
+        },
+        {
+            "id": 15,
+            "name": "Potatoes"
+        },
+        {
+            "id": 16,
+            "name": "Pumpkins"
+        },
+        {
+            "id": 17,
+            "name": "Spinach"
+        },
+        {
+            "id": 18,
+            "name": "Summer Squash"
+        },
+        {
+            "id": 19,
+            "name": "Tomatoes"
+        },
+        {
+            "id": 20,
+            "name": "Turnips"
+        },
+        {
+            "id": 21,
+            "name": "Watermelon"
+        },
+        {
+            "id": 22,
+            "name": "Winter Squash"
+        },
+        {
+            "id": 23,
+            "name": "Eggplant"
+        },
+        {
+            "id": 24,
+            "name": "Bell Peppers"
+        },
+        {
+            "id": 25,
+            "name": "Zucchini"
+        }
+    ],
+    "gardens": [
+        {}
+    ],
+    "plantsByGardens": [
+        {}
+    ],
+    "users": [
+        {}
+    ],
+    "dateRange": [
+        {}
+    ]
+}
