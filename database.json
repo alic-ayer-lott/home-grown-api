@@ -101,16 +101,79 @@
             "name": "Zucchini"
         }
     ],
-    "gardens": [
-        {}
-    ],
-    "plantsByGardens": [
-        {}
+    "seasons": [
+        {
+            "id": 1,
+            "season": "spring"
+        },
+        {
+            "id": 2,
+            "season": "summer"
+        },
+        {
+            "id": 3,
+            "season": "fall"
+        },
+        {
+            "id": 4,
+            "season": "winter"
+        }
     ],
     "users": [
-        {}
+        {
+            "id": 1,
+            "name": "Alicia",
+            "email": "alicia@alicia.com",
+            "zoneId": 7
+        }
     ],
-    "dateRange": [
-        {}
+    "zones": [
+        {
+            "id": 3,
+            "zoneNumber": 3
+        },
+        {
+            "id": 4,
+            "zoneNumber": 4
+        },
+        {
+            "id": 5,
+            "zoneNumber": 5
+        },
+        {
+            "id": 6,
+            "zoneNumber": 6
+        },
+        {
+            "id": 7,
+            "zoneNumber": 7
+        },
+        {
+            "id": 8,
+            "zoneNumber": 8
+        },
+        {
+            "id": 9,
+            "zoneNumber": 9
+        },
+        {
+            "id": 10,
+            "zoneNumber": 10
+        }
+    ],
+    "plantsByUsers": [
+        {
+            "id": 1,
+            "plantId": 1,
+            "userId": 1
+        }
+    ],
+    "viablePlants": [
+        {
+            "id": 1,
+            "seasonId": 2,
+            "plantId": 2,
+            "zoneId": 7
+        }
     ]
 }
