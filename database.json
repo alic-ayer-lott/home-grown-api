@@ -135,6 +135,11 @@
       "name": "Steve",
       "email": "steve@steve.com",
       "id": 3
+    },
+    {
+      "name": "Friend",
+      "email": "friend@friend.com",
+      "id": 4
     }
   ],
   "zones": [
@@ -278,21 +283,6 @@
       "tip": "Hello",
       "userId": 1,
       "id": 2
-    },
-    {
-      "tip": "hello",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "tip": "Test",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "tip": "welcome",
-      "userId": 1,
-      "id": 5
     }
   ],
   "plantsBySeasons": [
@@ -485,7 +475,7 @@
       "id": 38,
       "plantId": 21,
       "seasonId": 1
-    }, 
+    },
     {
       "id": 39,
       "plantId": 21,
