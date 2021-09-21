@@ -1,179 +1,515 @@
 {
-    "plants": [
-        {
-            "id": 1,
-            "name": "Arugula"
-        },
-        {
-            "id": 2,
-            "name": "Basil"
-        },
-        {
-            "id": 3,
-            "name": "Beets"
-        },
-        {
-            "id": 4,
-            "name": "Broccoli"
-        },
-        {
-            "id": 5,
-            "name": "Cabbage"
-        },
-        {
-            "id": 6,
-            "name": "Carrots"
-        },
-        {
-            "id": 7,
-            "name": "Cauliflower"
-        },
-        {
-            "id": 8,
-            "name": "Corn"
-        },
-        {
-            "id": 9,
-            "name": "Cucumbers"
-        },
-        {
-            "id": 10,
-            "name": "Green Beans"
-        },
-        {
-            "id": 11,
-            "name": "Kale"
-        },
-        {
-            "id": 12,
-            "name": "Lettuce"
-        },
-        {
-            "id": 13,
-            "name": "Okra"
-        },
-        {
-            "id": 14,
-            "name": "Parsley"
-        },
-        {
-            "id": 15,
-            "name": "Potatoes"
-        },
-        {
-            "id": 16,
-            "name": "Pumpkins"
-        },
-        {
-            "id": 17,
-            "name": "Spinach"
-        },
-        {
-            "id": 18,
-            "name": "Summer Squash"
-        },
-        {
-            "id": 19,
-            "name": "Tomatoes"
-        },
-        {
-            "id": 20,
-            "name": "Turnips"
-        },
-        {
-            "id": 21,
-            "name": "Watermelon"
-        },
-        {
-            "id": 22,
-            "name": "Winter Squash"
-        },
-        {
-            "id": 23,
-            "name": "Eggplant"
-        },
-        {
-            "id": 24,
-            "name": "Bell Peppers"
-        },
-        {
-            "id": 25,
-            "name": "Zucchini"
-        }
-    ],
-    "seasons": [
-        {
-            "id": 1,
-            "season": "spring"
-        },
-        {
-            "id": 2,
-            "season": "summer"
-        },
-        {
-            "id": 3,
-            "season": "fall"
-        },
-        {
-            "id": 4,
-            "season": "winter"
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "name": "Alicia",
-            "email": "alicia@alicia.com",
-            "zoneId": 7
-        }
-    ],
-    "zones": [
-        {
-            "id": 3,
-            "zoneNumber": 3
-        },
-        {
-            "id": 4,
-            "zoneNumber": 4
-        },
-        {
-            "id": 5,
-            "zoneNumber": 5
-        },
-        {
-            "id": 6,
-            "zoneNumber": 6
-        },
-        {
-            "id": 7,
-            "zoneNumber": 7
-        },
-        {
-            "id": 8,
-            "zoneNumber": 8
-        },
-        {
-            "id": 9,
-            "zoneNumber": 9
-        },
-        {
-            "id": 10,
-            "zoneNumber": 10
-        }
-    ],
-    "plantsByUsers": [
-        {
-            "id": 1,
-            "plantId": 1,
-            "userId": 1
-        }
-    ],
-    "viablePlants": [
-        {
-            "id": 1,
-            "seasonId": 2,
-            "plantId": 2,
-            "zoneId": 7
-        }
-    ]
+  "plants": [
+    {
+      "id": 1,
+      "name": "Arugula"
+    },
+    {
+      "id": 2,
+      "name": "Basil"
+    },
+    {
+      "id": 3,
+      "name": "Beets"
+    },
+    {
+      "id": 4,
+      "name": "Broccoli"
+    },
+    {
+      "id": 5,
+      "name": "Cabbage"
+    },
+    {
+      "id": 6,
+      "name": "Carrots"
+    },
+    {
+      "id": 7,
+      "name": "Cauliflower"
+    },
+    {
+      "id": 8,
+      "name": "Corn"
+    },
+    {
+      "id": 9,
+      "name": "Cucumbers"
+    },
+    {
+      "id": 10,
+      "name": "Green Beans"
+    },
+    {
+      "id": 11,
+      "name": "Kale"
+    },
+    {
+      "id": 12,
+      "name": "Lettuce"
+    },
+    {
+      "id": 13,
+      "name": "Okra"
+    },
+    {
+      "id": 14,
+      "name": "Parsley"
+    },
+    {
+      "id": 15,
+      "name": "Potatoes"
+    },
+    {
+      "id": 16,
+      "name": "Pumpkins"
+    },
+    {
+      "id": 17,
+      "name": "Spinach"
+    },
+    {
+      "id": 18,
+      "name": "Summer Squash"
+    },
+    {
+      "id": 19,
+      "name": "Tomatoes"
+    },
+    {
+      "id": 20,
+      "name": "Turnips"
+    },
+    {
+      "id": 21,
+      "name": "Watermelon"
+    },
+    {
+      "id": 22,
+      "name": "Winter Squash"
+    },
+    {
+      "id": 23,
+      "name": "Eggplant"
+    },
+    {
+      "id": 24,
+      "name": "Bell Peppers"
+    },
+    {
+      "id": 25,
+      "name": "Zucchini"
+    }
+  ],
+  "seasons": [
+    {
+      "id": 1,
+      "season": "Spring"
+    },
+    {
+      "id": 2,
+      "season": "Summer"
+    },
+    {
+      "id": 3,
+      "season": "Fall"
+    },
+    {
+      "id": 4,
+      "season": "Winter"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alicia",
+      "email": "alicia@alicia.com",
+      "zoneId": 7
+    },
+    {
+      "name": "Dylan",
+      "email": "dylan@dylan.com",
+      "id": 2
+    },
+    {
+      "name": "Steve",
+      "email": "steve@steve.com",
+      "id": 3
+    }
+  ],
+  "zones": [
+    {
+      "id": 3,
+      "zoneNumber": 3
+    },
+    {
+      "id": 4,
+      "zoneNumber": 4
+    },
+    {
+      "id": 5,
+      "zoneNumber": 5
+    },
+    {
+      "id": 6,
+      "zoneNumber": 6
+    },
+    {
+      "id": 7,
+      "zoneNumber": 7
+    },
+    {
+      "id": 8,
+      "zoneNumber": 8
+    },
+    {
+      "id": 9,
+      "zoneNumber": 9
+    },
+    {
+      "id": 10,
+      "zoneNumber": 10
+    }
+  ],
+  "plantsByUsers": [
+    {
+      "userId": 2,
+      "plantId": 25,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "plantId": 20,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "plantId": 24,
+      "id": 22
+    },
+    {
+      "plantId": 6,
+      "id": 23
+    },
+    {
+      "plantId": 6,
+      "id": 24
+    },
+    {
+      "plantId": 6,
+      "id": 25
+    },
+    {
+      "plantId": 6,
+      "id": 26
+    },
+    {
+      "plantId": 6,
+      "id": 27
+    },
+    {
+      "plantId": 6,
+      "id": 28
+    },
+    {
+      "plantId": 6,
+      "id": 29
+    },
+    {
+      "plantId": 6,
+      "id": 30
+    },
+    {
+      "userId": 1,
+      "plantId": 25,
+      "id": 34
+    },
+    {
+      "userId": 2,
+      "plantId": 16,
+      "id": 37
+    },
+    {
+      "userId": 3,
+      "plantId": 16,
+      "id": 41
+    },
+    {
+      "userId": 3,
+      "plantId": 25,
+      "id": 42
+    },
+    {
+      "userId": 1,
+      "plantId": 23,
+      "id": 44
+    },
+    {
+      "userId": 1,
+      "plantId": 4,
+      "id": 45
+    },
+    {
+      "userId": 1,
+      "plantId": 5,
+      "id": 46
+    },
+    {
+      "userId": 3,
+      "plantId": 4,
+      "id": 47
+    },
+    {
+      "userId": 3,
+      "plantId": 22,
+      "id": 48
+    }
+  ],
+  "viablePlants": [
+    {
+      "id": 1,
+      "seasonId": 2,
+      "plantId": 2,
+      "zoneId": 7
+    }
+  ],
+  "posts": [
+    {
+      "tip": "Hello",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "tip": "hello",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "tip": "Test",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "tip": "welcome",
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "plantsBySeasons": [
+    {
+      "id": 1,
+      "plantId": 1,
+      "seasonId": 1
+    },
+    {
+      "id": 2,
+      "plantId": 1,
+      "seasonId": 2
+    },
+    {
+      "id": 3,
+      "plantId": 2,
+      "seasonId": 1
+    },
+    {
+      "id": 4,
+      "plantId": 2,
+      "seasonId": 2
+    },
+    {
+      "id": 5,
+      "plantId": 3,
+      "seasonId": 1
+    },
+    {
+      "id": 6,
+      "plantId": 3,
+      "seasonId": 3
+    },
+    {
+      "id": 7,
+      "plantId": 4,
+      "seasonId": 1
+    },
+    {
+      "id": 8,
+      "plantId": 4,
+      "seasonId": 3
+    },
+    {
+      "id": 9,
+      "plantId": 5,
+      "seasonId": 1
+    },
+    {
+      "id": 10,
+      "plantId": 5,
+      "seasonId": 3
+    },
+    {
+      "id": 11,
+      "plantId": 5,
+      "seasonId": 4
+    },
+    {
+      "id": 12,
+      "plantId": 6,
+      "seasonId": 1
+    },
+    {
+      "id": 13,
+      "plantId": 6,
+      "seasonId": 3
+    },
+    {
+      "id": 14,
+      "plantId": 7,
+      "seasonId": 1
+    },
+    {
+      "id": 15,
+      "plantId": 7,
+      "seasonId": 2
+    },
+    {
+      "id": 16,
+      "plantId": 8,
+      "seasonId": 1
+    },
+    {
+      "id": 17,
+      "plantId": 9,
+      "seasonId": 1
+    },
+    {
+      "id": 18,
+      "plantId": 9,
+      "seasonId": 2
+    },
+    {
+      "id": 19,
+      "plantId": 10,
+      "seasonId": 1
+    },
+    {
+      "id": 20,
+      "plantId": 10,
+      "seasonId": 3
+    },
+    {
+      "id": 21,
+      "plantId": 11,
+      "seasonId": 1
+    },
+    {
+      "id": 22,
+      "plantId": 11,
+      "seasonId": 2
+    },
+    {
+      "id": 23,
+      "plantId": 11,
+      "seasonId": 3
+    },
+    {
+      "id": 24,
+      "plantId": 12,
+      "seasonId": 1
+    },
+    {
+      "id": 25,
+      "plantId": 13,
+      "seasonId": 1
+    },
+    {
+      "id": 26,
+      "plantId": 13,
+      "seasonId": 2
+    },
+    {
+      "id": 27,
+      "plantId": 14,
+      "seasonId": 1
+    },
+    {
+      "id": 28,
+      "plantId": 15,
+      "seasonId": 1
+    },
+    {
+      "id": 29,
+      "plantId": 15,
+      "seasonId": 3
+    },
+    {
+      "id": 30,
+      "plantId": 16,
+      "seasonId": 2
+    },
+    {
+      "id": 31,
+      "plantId": 17,
+      "seasonId": 1
+    },
+    {
+      "id": 32,
+      "plantId": 17,
+      "seasonId": 3
+    },
+    {
+      "id": 33,
+      "plantId": 18,
+      "seasonId": 1
+    },
+    {
+      "id": 34,
+      "plantId": 19,
+      "seasonId": 1
+    },
+    {
+      "id": 35,
+      "plantId": 19,
+      "seasonId": 2
+    },
+    {
+      "id": 36,
+      "plantId": 20,
+      "seasonId": 1
+    },
+    {
+      "id": 37,
+      "plantId": 20,
+      "seasonId": 3
+    },
+    {
+      "id": 38,
+      "plantId": 21,
+      "seasonId": 1
+    }, 
+    {
+      "id": 39,
+      "plantId": 21,
+      "seasonId": 2
+    },
+    {
+      "id": 40,
+      "plantId": 22,
+      "seasonId": 2
+    },
+    {
+      "id": 41,
+      "plantId": 23,
+      "seasonId": 1
+    },
+    {
+      "id": 42,
+      "plantId": 24,
+      "seasonId": 1
+    },
+    {
+      "id": 43,
+      "plantId": 25,
+      "seasonId": 1
+    }
+  ]
 }
